@@ -88,7 +88,7 @@ than a vague sense that the piece "reads fine."
 1. Define the five review phases (structural, paragraph-by-paragraph,
    verification, narrative integration, publication safety) and what
    each phase is for.
-2. Catalogue the AI-generated prose patterns that deserve specific
+2. Catalog the AI-generated prose patterns that deserve specific
    scrutiny during the paragraph-level pass.
 3. Provide a concrete note-taking and severity-classification system
    for tracking findings through revision.
@@ -408,7 +408,7 @@ actually costs if it ships unresolved.
   fill it in from memory, the section has not actually been
   reviewed.
 
-# Lessons Learnt
+# Lessons Learned
 
 **Conceptual understanding:**
 
@@ -441,7 +441,7 @@ actually costs if it ships unresolved.
 # Limitations
 
 - The framework is scoped to blog-style prose; the phase structure
-  generalizes, but the specific failure patterns catalogued here
+  generalizes, but the specific failure patterns cataloged here
   were observed in short-to-medium-length posts, not book-length
   manuscripts. See the companion post [Review Methodology for
   AI-Assisted Textbook Drafting](../rp-book-review-methodology/) for
