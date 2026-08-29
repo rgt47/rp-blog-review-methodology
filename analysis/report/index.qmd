@@ -61,8 +61,8 @@ transposition of a companion framework originally written for
 reviewing AI-assisted R packages, [Code Review for AI-Assisted R
 Package Development](../rp-code-review-methodology/), onto prose
 rather than code. Where that post asks whether a function does what
-it claims, this one asks whether a paragraph does what it claims,
-and it ends the same way: with an explicit ownership test rather
+it claims, this one asks whether a paragraph does what it claims.
+Both end the same way: with an explicit ownership test rather
 than a vague sense that the piece "reads fine."
 
 ## Motivations
@@ -108,13 +108,12 @@ copyediting guide, and it does not replace a style guide or a
 platform's editorial checklist; it sits alongside both.
 
 A thorough review in this context serves five purposes:
-comprehension (the author understands and can restate every claim),
-correctness (every factual assertion holds up), voice (the prose
-reads as the author's own, not as generic assistant output), safety
-(the piece introduces no legal, ethical, or reputational exposure),
-and alignment (the published argument matches the outline the author
-actually intended, rather than drifting toward whatever the
-assistant found convenient to write).
+
+1. **Comprehension.** The author understands and can restate every claim.
+2. **Correctness.** Every factual assertion holds up.
+3. **Voice.** The prose reads as the author's own, not as generic assistant output.
+4. **Safety.** The piece introduces no legal, ethical, or reputational exposure.
+5. **Alignment.** The published argument matches the outline the author actually intended, rather than drifting toward whatever the assistant found convenient to write.
 
 # Prerequisites
 
@@ -177,9 +176,9 @@ is claiming and why it belongs in this position in the post?
 
 For each section, read the outline note before reading the drafted
 prose, trace the argument as a reader unfamiliar with the topic
-would encounter it, verify that every specific claim has a source
-you have personally checked, and deliberately question any
-transition that resolves too smoothly, since AI-drafted prose tends
+would encounter it, and verify that every specific claim has a source
+you have personally checked. Deliberately question any
+transition that resolves too smoothly: AI-drafted prose tends
 to paper over gaps in the argument with a fluent connective phrase.
 
 ### Patterns specific to AI-generated prose
@@ -237,12 +236,12 @@ conclusion.
 ## Phase 5: Publication Safety Review
 
 Examine the post for the standard exposure classes specific to
-published writing: claims about identifiable people or organizations
-that could be defamatory if false, personally identifiable
-information used without consent even in an anonymized-seeming
-example, quoted material used beyond fair use without permission or
-attribution, and technical claims about a product or vulnerability
-that require responsible disclosure rather than public posting.
+published writing:
+
+- Claims about identifiable people or organizations that could be defamatory if false.
+- Personally identifiable information used without consent, even in an anonymized-seeming example.
+- Quoted material used beyond fair use without permission or attribution.
+- Technical claims about a product or vulnerability that require responsible disclosure rather than public posting.
 Finally, consider licensing: are any images, code snippets, or
 quoted passages used under a license the post's format allows, and
 is that license recorded where readers can find it?
@@ -473,12 +472,12 @@ actually costs if it ships unresolved.
 
 # Establishing Ownership
 
-Before publishing the post, verify that you can, without referring
-to the draft: restate the post's central argument and every section's
-claim in your own words, name the source for every fact or statistic
-in the piece, identify which sentences do not sound like your own
-voice, and answer a skeptical reader's challenge to any specific
-claim without looking it up again. Separately, confirm publication
+Before publishing the post, verify that you can do the following
+without referring to the draft. Restate the post's central argument
+and every section's claim in your own words, and name the source for
+every fact or statistic in the piece. Identify which sentences do
+not sound like your own voice, and answer a skeptical reader's
+challenge to any specific claim without looking it up again. Separately, confirm publication
 readiness: can you respond to a comment or correction, issue a
 retraction or update if a claim turns out to be wrong, and defend
 the piece if a source you cited is later challenged?
